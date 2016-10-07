@@ -33,7 +33,7 @@
                     @*@Html.DisplayFor(modelItem => item.Content)*@
 
                     <p>@Html.DisplayFor(modelItem => item.PublishedDate)</p> @*display when published*@
-                    <p>@Html.ActionLink("Details", "Details", new { id = item.ID })</p> @*can view more details*@
+                    <p>@Html.ActionLink("View", "Details", new { id = item.ID }, new { @class = "btn btn-primary" })</p> @*can view more details*@
 
                     
                 </div>

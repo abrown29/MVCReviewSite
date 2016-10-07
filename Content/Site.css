@@ -3,6 +3,7 @@
     padding-bottom: 20px;
     background-image: url('Background2.png');
     background-size:cover;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -24,6 +25,23 @@ select,
 textarea {
     max-width: 280px;
 }
-h2, footer{
+.control-label, h2, h4, footer, dt{ /*makes all the text the same color as the light blue in background*/
     color:#A0C3E9;
+}
+dd{
+    color:white; /*makes text visible on dark background*/
+}
+.navbar{
+    background-color:lightgray;
+}
+.navbar-brand{
+    color:#00244C;
+    font-weight:500;
+    font-style:italic;
+    font-size:xx-large;
+}
+#navvy{
+    color:#00244C;
+    
+    
 }
