@@ -65,3 +65,7 @@ c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\MVCRevi
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\MVCReviewSite\bin\roslyn\System.IO.FileSystem.Primitives.dll
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\MVCReviewSite\bin\roslyn\vbc.exe.config
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\MVCReviewSite\bin\roslyn\vbc.rsp
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\MVCReviewSite\bin\EntityFramework.dll
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\MVCReviewSite\bin\EntityFramework.SqlServer.dll
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\MVCReviewSite\bin\EntityFramework.xml
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\MVCReviewSite\bin\EntityFramework.SqlServer.xml
