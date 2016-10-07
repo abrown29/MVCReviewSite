@@ -24,3 +24,6 @@ select,
 textarea {
     max-width: 280px;
 }
+h2, footer{
+    color:#A0C3E9;
+}
