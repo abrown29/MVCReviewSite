@@ -1,51 +1,44 @@
 ﻿@model IEnumerable<MVCReviewSite.Models.Review>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Gallifrey Weekly";
 }
 
-<h2>Index</h2>
+<h2>Technology Review</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Category.Name)
-        </th>
-        <th>
+<div class="row"> @*creates rows for the reviews*@
+    
+        
+            @*@Html.DisplayNameFor(model => model.Category.Name)
+        
             @Html.DisplayNameFor(model => model.Title)
-        </th>
-        <th>
+        
             @Html.DisplayNameFor(model => model.Content)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.PublishedDate)
-        </th>
-        <th></th>
-    </tr>
+        
+            @Html.DisplayNameFor(model => model.PublishedDate)*@
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Category.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Title)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Content)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.PublishedDate)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <div class="caption">
 
-</table>
+                    @*@Html.DisplayFor(modelItem => item.Category.Name)*@
+
+                    <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
+
+                    <p>@Html.DisplayFor(modelItem => item.Content)</p>
+
+                    <p>@Html.DisplayFor(modelItem => item.PublishedDate)</p>
+                    <p>@Html.ActionLink("Details", "Details", new { id = item.ID })</p>
+
+                    
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
