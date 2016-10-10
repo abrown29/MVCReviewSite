@@ -13,9 +13,11 @@ namespace MVCReviewSite.Models
         public int ID { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
+        [Display(Name ="Published Date")]
         public DateTime PublishedDate { get; set; }
 
         [ForeignKey("Category")]
+        [Display(Name ="Category")]
         public int CategoryID { get; set; }
         public virtual Category Category { get; set; }
     }
