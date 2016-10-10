@@ -33,6 +33,7 @@ dd{
 }
 .navbar{
     background-color:lightgray;
+    margin-bottom:20px;
 }
 .navbar-brand{
     color:#00244C;
@@ -42,6 +43,15 @@ dd{
 }
 #navvy{
     color:#00244C;
-    
-    
+}
+
+.jumbotron {
+    background-image: url('Jumbo_Back.jpg');
+    background-size:cover;
+    margin-top: 10px;
+    color:floralwhite;
+}
+#content{
+    background-color:gray;
+    color:white;
 }
