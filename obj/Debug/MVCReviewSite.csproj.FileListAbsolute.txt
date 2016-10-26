@@ -69,7 +69,12 @@ c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\MVCRevi
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\MVCReviewSite\bin\EntityFramework.SqlServer.dll
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\MVCReviewSite\bin\EntityFramework.xml
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\MVCReviewSite\bin\EntityFramework.SqlServer.xml
+<<<<<<< HEAD
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSite\MVCReviewSite\obj\Debug\MVCReviewSite.Migrations.InitialCreate.resources
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSite\MVCReviewSite\obj\Debug\MVCReviewSite.csproj.GenerateResource.Cache
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSite\MVCReviewSite\obj\Debug\MVCReviewSite.Migrations.AddRating.resources
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSite\MVCReviewSite\obj\Debug\MVCReviewSite.Migrations.UpdateRating.resources
+=======
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\obj\Debug\MVCReviewSite.dll
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSite\obj\Debug\MVCReviewSite.pdb
+>>>>>>> c9a7f322af13e9aee02c83a220169e7f0812e574
