@@ -13,6 +13,7 @@ namespace MVCReviewSite.Models
         public int ID { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
+        public string Rating { get; set; }
         [Display(Name ="Published Date")]
         public DateTime PublishedDate { get; set; }
 
